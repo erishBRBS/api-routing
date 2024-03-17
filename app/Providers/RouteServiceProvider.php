@@ -34,8 +34,8 @@ class RouteServiceProvider extends ServiceProvider
                 ->group(base_path('routes/api.php'));
 
             Route::middleware('api')
-                ->prefix('anime')
-                ->group(base_path('routes/dragonball.php'));
+                ->prefix('demo')
+                ->group(base_path('routes/api-practice.php'));
                 
 
             Route::middleware('web')
